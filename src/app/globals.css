@@ -6,22 +6,55 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary-blue: #1769c2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html {
+  scroll-behavior: smooth;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1rem 2rem;
+}
+
+.ingredients > h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+table > tbody > tr > :first-child > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+td > p > a {
+  color: var(--primary-blue);
+}
+
+
+.rotd-tag {
+  display: block;
+}
+.rotd-tag::after {
+  content: "";
+  position: absolute;
+  left: 150px;
+  
+  border: 15px solid #9c1f1e;
+  border-right-color: transparent;
+}
+
+@media (min-width: 768px) {
+
+
+  .text-shadow {
+    text-shadow: 0px 0px 20px #000000;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .rotd-div-shadow {
+    box-shadow: inset 100px 0px 200px 80px #121212;
+  }
+  .rotd-tag {
+    display: none;
+  }
 }
