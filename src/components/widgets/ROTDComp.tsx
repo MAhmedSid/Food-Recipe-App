@@ -24,8 +24,6 @@ const ROTDComp = async () => {
               alt="recipe of the day"
               width={2000}
               height={100}
-              placeholder="blur"
-              blurDataURL={`https:${rotdImage}`}
             />
           </div>
           <div className="inner_container md:absolute md:top-[30%] ml-3 md:ml-0 mt-3 md:mt-0 md:left-[7%] ">
