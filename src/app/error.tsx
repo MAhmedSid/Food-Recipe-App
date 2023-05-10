@@ -1,12 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import React, { useEffect } from "react";
+import React from "react";
 
 const Error = ({ error, reset }: { error: Error; reset: () => void }) => {
-  useEffect(() => {
-    console.log({ error: error });
-  }, [error]);
+ 
 
   const router = useRouter();
 
