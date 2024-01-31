@@ -4,7 +4,7 @@
 
 📜 **Note** For all of that who want to learn and play with Next js 13 latest, this repo is best for them. You can learn very fast with knowing how things work and how the beta version errors can solve out. Its helps me to learn very professional things, when you add your contribution you will learn. You can anytime contribute here.
 
-## 💯 Funcionalities
+## 💯 Functionalities 
 
 Everything with ease,
 
